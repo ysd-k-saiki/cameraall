@@ -1,0 +1,63 @@
+## ビルド出力 / 一時ファイル
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+## Rider / VS Code / Visual Studio
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+
+## パッケージ
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+packages/
+*.dll
+*.exe
+*.pdb
+
+## OS / ツール依存ファイル
+[Tt]humbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.swp
+*.bak
+*.tmp
+*.log
+
+## 環境変数や機密情報
+.env
+.env.*
+*.secret.json
+appsettings.Development.json
+
+## 公開用でない Web 静的リソース
+wwwroot/lib/
+node_modules/
+dist/
+
+## カバレッジ / テスト
+*.coverage
+*.coveragexml
+TestResults/
+*.trx
+*.log
+*.vsmdi
+
+## その他
+_ReSharper*/
+*.DotSettings.user

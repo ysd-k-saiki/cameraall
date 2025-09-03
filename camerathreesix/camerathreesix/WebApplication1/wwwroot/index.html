@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>360 Viewer (Local)</title>
+    <link rel="stylesheet" href="/lib/pannellum/pannellum.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0
+        }
+
+        #panorama {
+            width: 100%;
+            height: 100vh;
+            background: #000
+        }
+    </style>
+</head>
+<body>
+    <div id="panorama"></div>
+
+    <script src="/lib/pannellum/pannellum.js"></script>
+    <script>
+      pannellum.viewer('panorama', {
+        type: 'equirectangular',
+        panorama: '/images/a.jpg', // ← ここ（基底パスに注意）
+        autoLoad: true,
+        hfov: 100
+      });
+    </script>
+</body>
+</html>
